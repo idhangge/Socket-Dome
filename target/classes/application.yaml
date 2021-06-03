@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.1.60:1521:orcl
+    password: oLffV2J3zHzxekeK
+    username: EMALLUSER
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+logging:
+  level:
+    root: info
+server:
+  port: 8080
+
+
